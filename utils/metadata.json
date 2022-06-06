@@ -1,0 +1,539 @@
+{
+  "ace": {
+    "Movement:Transport": [
+      "Destination",
+      "Agent",
+      "Place",
+      "Vehicle",
+      "Origin",
+      "Victim",
+      "Artifact"
+    ],
+    "Personnel:Elect": [
+      "Entity",
+      "Place",
+      "Person"
+    ],
+    "Personnel:Start-Position": [
+      "Entity",
+      "Place",
+      "Person"
+    ],
+    "Personnel:Nominate": [
+      "Person",
+      "Agent"
+    ],
+    "Personnel:End-Position": [
+      "Entity",
+      "Place",
+      "Person"
+    ],
+    "Conflict:Attack": [
+      "Place",
+      "Attacker",
+      "Instrument",
+      "Victim",
+      "Target"
+    ],
+    "Contact:Meet": [
+      "Place",
+      "Entity"
+    ],
+    "Life:Marry": [
+      "Place",
+      "Person"
+    ],
+    "Contact:Phone-Write": [
+      "Place",
+      "Entity"
+    ],
+    "Transaction:Transfer-Money": [
+      "Place",
+      "Recipient",
+      "Giver",
+      "Beneficiary"
+    ],
+    "Justice:Sue": [
+      "Adjudicator",
+      "Place",
+      "Plaintiff",
+      "Defendant"
+    ],
+    "Conflict:Demonstrate": [
+      "Place",
+      "Entity"
+    ],
+    "Business:End-Org": [
+      "Place",
+      "Org"
+    ],
+    "Life:Injure": [
+      "Place",
+      "Agent",
+      "Instrument",
+      "Victim"
+    ],
+    "Life:Die": [
+      "Place",
+      "Agent",
+      "Person",
+      "Instrument",
+      "Victim"
+    ],
+    "Justice:Arrest-Jail": [
+      "Place",
+      "Agent",
+      "Person"
+    ],
+    "Transaction:Transfer-Ownership": [
+      "Place",
+      "Seller",
+      "Beneficiary",
+      "Artifact",
+      "Buyer"
+    ],
+    "Business:Start-Org": [
+      "Place",
+      "Agent",
+      "Org"
+    ],
+    "Justice:Execute": [
+      "Place",
+      "Agent",
+      "Person"
+    ],
+    "Justice:Trial-Hearing": [
+      "Prosecutor",
+      "Place",
+      "Adjudicator",
+      "Defendant"
+    ],
+    "Justice:Sentence": [
+      "Adjudicator",
+      "Place",
+      "Defendant"
+    ],
+    "Life:Be-Born": [
+      "Place",
+      "Person"
+    ],
+    "Justice:Charge-Indict": [
+      "Prosecutor",
+      "Place",
+      "Adjudicator",
+      "Defendant"
+    ],
+    "Justice:Convict": [
+      "Adjudicator",
+      "Place",
+      "Defendant"
+    ],
+    "Business:Declare-Bankruptcy": [
+      "Place",
+      "Org"
+    ],
+    "Justice:Release-Parole": [
+      "Entity",
+      "Place",
+      "Person"
+    ],
+    "Justice:Fine": [
+      "Adjudicator",
+      "Place",
+      "Entity"
+    ],
+    "Justice:Pardon": [
+      "Adjudicator",
+      "Place",
+      "Defendant"
+    ],
+    "Justice:Appeal": [
+      "Adjudicator",
+      "Place",
+      "Plaintiff"
+    ],
+    "Business:Merge-Org": [
+      "Org"
+    ],
+    "Justice:Extradite": [
+      "Origin",
+      "Destination",
+      "Agent",
+      "Person"
+    ],
+    "Life:Divorce": [
+      "Person"
+    ],
+    "Justice:Acquit": [
+      "Adjudicator",
+      "Defendant"
+    ]
+  },
+  "ere": {
+    "personnel:endposition": [
+      "place",
+      "entity",
+      "person"
+    ],
+    "justice:fine": [
+      "place",
+      "entity",
+      "adjudicator"
+    ],
+    "transaction:transfermoney": [
+      "beneficiary",
+      "giver",
+      "place",
+      "recipient"
+    ],
+    "justice:convict": [
+      "defendant",
+      "place",
+      "adjudicator"
+    ],
+    "conflict:attack": [
+      "place",
+      "attacker",
+      "instrument",
+      "target"
+    ],
+    "personnel:startposition": [
+      "place",
+      "entity",
+      "person"
+    ],
+    "life:die": [
+      "place",
+      "instrument",
+      "agent",
+      "victim"
+    ],
+    "justice:sentence": [
+      "defendant",
+      "place",
+      "adjudicator"
+    ],
+    "justice:arrestjail": [
+      "place",
+      "agent",
+      "person"
+    ],
+    "justice:pardon": [
+      "defendant",
+      "place",
+      "adjudicator"
+    ],
+    "justice:releaseparole": [
+      "place",
+      "agent",
+      "person"
+    ],
+    "movement:transportartifact": [
+      "agent",
+      "destination",
+      "origin",
+      "instrument",
+      "artifact"
+    ],
+    "contact:contact": [
+      "place",
+      "entity"
+    ],
+    "transaction:transferownership": [
+      "giver",
+      "recipient",
+      "thing",
+      "beneficiary",
+      "place"
+    ],
+    "transaction:transaction": [
+      "beneficiary",
+      "giver",
+      "place",
+      "recipient"
+    ],
+    "contact:meet": [
+      "place",
+      "entity"
+    ],
+    "contact:broadcast": [
+      "place",
+      "audience",
+      "entity"
+    ],
+    "movement:transportperson": [
+      "agent",
+      "instrument",
+      "person",
+      "destination",
+      "origin"
+    ],
+    "contact:correspondence": [
+      "place",
+      "entity"
+    ],
+    "justice:execute": [
+      "place",
+      "agent",
+      "person"
+    ],
+    "justice:trialhearing": [
+      "defendant",
+      "place",
+      "adjudicator",
+      "prosecutor"
+    ],
+    "life:beborn": [
+      "place",
+      "person"
+    ],
+    "justice:chargeindict": [
+      "defendant",
+      "place",
+      "adjudicator",
+      "prosecutor"
+    ],
+    "conflict:demonstrate": [
+      "place",
+      "entity"
+    ],
+    "personnel:elect": [
+      "place",
+      "agent",
+      "person"
+    ],
+    "business:endorg": [
+      "place",
+      "org"
+    ],
+    "life:injure": [
+      "place",
+      "instrument",
+      "agent",
+      "victim"
+    ],
+    "manufacture:artifact": [
+      "place",
+      "agent",
+      "instrument",
+      "artifact"
+    ],
+    "life:marry": [
+      "place",
+      "person"
+    ],
+    "business:startorg": [
+      "place",
+      "agent",
+      "org"
+    ],
+    "life:divorce": [
+      "place",
+      "person"
+    ],
+    "justice:sue": [
+      "defendant",
+      "place",
+      "adjudicator",
+      "plaintiff"
+    ],
+    "justice:extradite": [
+      "agent",
+      "person",
+      "destination",
+      "origin"
+    ],
+    "justice:acquit": [
+      "defendant",
+      "place",
+      "adjudicator"
+    ],
+    "justice:appeal": [
+      "defendant",
+      "place",
+      "adjudicator",
+      "prosecutor"
+    ],
+    "personnel:nominate": [
+      "agent",
+      "person"
+    ],
+    "business:declarebankruptcy": [
+      "org"
+    ],
+    "business:mergeorg": [
+      "org"
+    ]
+  },
+  "maven": {
+    "Achieve": [],
+    "Action": [],
+    "Adducing": [],
+    "Agree_or_refuse_to_act": [],
+    "Aiming": [],
+    "Arranging": [],
+    "Arrest": [],
+    "Arriving": [],
+    "Assistance": [],
+    "Attack": [],
+    "Award": [],
+    "Bearing_arms": [],
+    "Becoming": [],
+    "Becoming_a_member": [],
+    "Being_in_operation": [],
+    "Besieging": [],
+    "Bodily_harm": [],
+    "Body_movement": [],
+    "Breathing": [],
+    "Bringing": [],
+    "Building": [],
+    "Carry_goods": [],
+    "Catastrophe": [],
+    "Causation": [],
+    "Cause_change_of_position_on_a_scale": [],
+    "Cause_change_of_strength": [],
+    "Cause_to_amalgamate": [],
+    "Cause_to_be_included": [],
+    "Cause_to_make_progress": [],
+    "Change": [],
+    "Change_event_time": [],
+    "Change_of_leadership": [],
+    "Change_sentiment": [],
+    "Change_tool": [],
+    "Check": [],
+    "Choosing": [],
+    "Collaboration": [],
+    "Come_together": [],
+    "Coming_to_be": [],
+    "Coming_to_believe": [],
+    "Commerce_buy": [],
+    "Commerce_pay": [],
+    "Commerce_sell": [],
+    "Commitment": [],
+    "Committing_crime": [],
+    "Communication": [],
+    "Competition": [],
+    "Confronting_problem": [],
+    "Connect": [],
+    "Conquering": [],
+    "Containing": [],
+    "Control": [],
+    "Convincing": [],
+    "Cost": [],
+    "Create_artwork": [],
+    "Creating": [],
+    "Criminal_investigation": [],
+    "Cure": [],
+    "Damaging": [],
+    "Death": [],
+    "Deciding": [],
+    "Defending": [],
+    "Departing": [],
+    "Destroying": [],
+    "Dispersal": [],
+    "Earnings_and_losses": [],
+    "Education_teaching": [],
+    "Emergency": [],
+    "Employment": [],
+    "Emptying": [],
+    "Escaping": [],
+    "Exchange": [],
+    "Expansion": [],
+    "Expend_resource": [],
+    "Expressing_publicly": [],
+    "Extradition": [],
+    "Filling": [],
+    "Forming_relationships": [],
+    "GetReady": [],
+    "Getting": [],
+    "GiveUp": [],
+    "Giving": [],
+    "Having_or_lacking_access": [],
+    "Hiding_objects": [],
+    "Hindering": [],
+    "Hold": [],
+    "Hostile_encounter": [],
+    "Imposing_obligation": [],
+    "Incident": [],
+    "Influence": [],
+    "Ingestion": [],
+    "Institutionalization": [],
+    "Judgment_communication": [],
+    "Justifying": [],
+    "Kidnapping": [],
+    "Killing": [],
+    "Know": [],
+    "Labeling": [],
+    "Legal_rulings": [],
+    "Legality": [],
+    "Lighting": [],
+    "Limiting": [],
+    "Manufacturing": [],
+    "Military_operation": [],
+    "Motion": [],
+    "Motion_directional": [],
+    "Name_conferral": [],
+    "Openness": [],
+    "Participation": [],
+    "Patrolling": [],
+    "Perception_active": [],
+    "Placing": [],
+    "Practice": [],
+    "Presence": [],
+    "Preserving": [],
+    "Preventing_or_letting": [],
+    "Prison": [],
+    "Process_end": [],
+    "Process_start": [],
+    "Protest": [],
+    "Publishing": [],
+    "Quarreling": [],
+    "Ratification": [],
+    "Receiving": [],
+    "Recording": [],
+    "Recovering": [],
+    "Reforming_a_system": [],
+    "Releasing": [],
+    "Removing": [],
+    "Renting": [],
+    "Reporting": [],
+    "Request": [],
+    "Rescuing": [],
+    "Research": [],
+    "Resolve_problem": [],
+    "Response": [],
+    "Reveal_secret": [],
+    "Revenge": [],
+    "Rewards_and_punishments": [],
+    "Risk": [],
+    "Rite": [],
+    "Robbery": [],
+    "Scouring": [],
+    "Scrutiny": [],
+    "Self_motion": [],
+    "Sending": [],
+    "Sign_agreement": [],
+    "Social_event": [],
+    "Statement": [],
+    "Submitting_documents": [],
+    "Supply": [],
+    "Supporting": [],
+    "Surrendering": [],
+    "Surrounding": [],
+    "Suspicion": [],
+    "Telling": [],
+    "Temporary_stay": [],
+    "Terrorism": [],
+    "Testing": [],
+    "Theft": [],
+    "Traveling": [],
+    "Use_firearm": [],
+    "Using": [],
+    "Violence": [],
+    "Vocalizations": [],
+    "Warning": [],
+    "Wearing": [],
+    "Writing": []
+  }
+}
+

@@ -1,0 +1,41 @@
+{
+  "event_name_seed": {
+    "representation_type": "type_name_seed_template",
+    "suppliment_trigger": {
+      "Movement:Transport": "[CLS]-Transport-[SEP]-arrival-travels-penetrated-expelled-[SEP]",
+      "Conflict:Attack": "[CLS]-Attack-[SEP]-invaded-airstrikes-overthrew-ambushed-[SEP]",
+      "Personnel:End-Position": "[CLS]-End-Position-[SEP]-resigning-retired-resigned-[SEP]",
+      "Life:Die": "[CLS]-Die-[SEP]-deceased-extermination-[SEP]",
+      "Contact:Meet": "[CLS]-Meet-[SEP]-reunited-retreats-[SEP]",
+      "Transaction:Transfer-Ownership": "[CLS]-Transfer-Ownership-[SEP]-purchased-buy-sell-loan-[SEP]",
+      "Personnel:Elect": "[CLS]-Elect-[SEP]-reelected-elected-election-[SEP]",
+      "Personnel:Start-Position": "[CLS]-Start-Position-[SEP]-hiring-rehired-recruited-[SEP]",
+      "Transaction:Transfer-Money": "[CLS]-Transfer-Money-[SEP]-donations-reimbursing-deductions-[SEP]",
+      "Justice:Sue": "[CLS]-Sue-[SEP]-lawsuits-[SEP]",
+      "Justice:Execute": "[CLS]-Execute-[SEP]-death-[SEP]",
+      "Life:Injure": "[CLS]-Injure-[SEP]-hospitalised-paralyzed-dismember-[SEP]",
+      "Contact:Phone-Write": "[CLS]-Phone-Write-[SEP]-emailed-letter-[SEP]",
+      "Business:Declare-Bankruptcy": "[CLS]-Declare-Bankruptcy-[SEP]-bankruptcy-bankruptcies-bankrupting-[SEP]",
+      "Justice:Appeal": "[CLS]-Appeal-[SEP]-appeal-[SEP]",
+      "Business:End-Org": "[CLS]-End-Organization-[SEP]-dissolving-disbanded-[SEP]",
+      "Justice:Arrest-Jail": "[CLS]-Arrest-Jail-[SEP]-arrested-locked-[SEP]",
+      "Justice:Convict": "[CLS]-Convict-[SEP]-pled-guilty-convicting-[SEP]",
+      "Justice:Trial-Hearing": "[CLS]-Trial-Hearing-[SEP]-trial-hearings-[SEP]",
+      "Justice:Sentence": "[CLS]-Sentence-[SEP]-sentenced-punishment-[SEP]",
+      "Justice:Charge-Indict": "[CLS]-Charge-Indict-[SEP]-indictment-[SEP]",
+      "Conflict:Demonstrate": "[CLS]-Demonstrate-[SEP]-demonstrations-protest-strikes-riots-[SEP]",
+      "Personnel:Nominate": "[CLS]-Nominate-[SEP]-nominate-[SEP]",
+      "Life:Marry": "[CLS]-Marry-[SEP]-married-marriage-marry-[SEP]",
+      "Business:Start-Org": "[CLS]-Start-Organization-[SEP]-founded-[SEP]",
+      "Life:Be-Born": "[CLS]-Be-Born-[SEP]-childbirth-[SEP]",
+      "Justice:Release-Parole": "[CLS]-Release-Parole-[SEP]-parole-[SEP]",
+      "Justice:Fine": "[CLS]-Fine-[SEP]-payouts-financial-punishment-[SEP]",
+      "Justice:Pardon": "[CLS]-Pardon-[SEP]-pardoned-lift-sentence-[SEP]",
+      "Business:Merge-Org": "[CLS]-Merge-Organization-[SEP]-merging-merger-[SEP]",
+      "Life:Divorce": "[CLS]-Divorce-[SEP]-people-divorce-[SEP]",
+      "Justice:Acquit": "[CLS]-Acquit-[SEP]-acquitted-[SEP]",
+      "Justice:Extradite": "[CLS]-Extradite-[SEP]-extradition-[SEP]"
+    }
+  }
+
+}
