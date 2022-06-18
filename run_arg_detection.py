@@ -3,7 +3,7 @@ import torch
 import os
 import sys
 import torch.nn as nn
-from model.argument_detection.model_rich_context_pred_trigger import ModelRichContext
+from model.argument_detection.arg_detection import ModelRichContext
 from utils.config import Config
 from utils.to_html import Write2HtmlArg
 import fire
