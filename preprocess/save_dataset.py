@@ -254,7 +254,7 @@ def save_to_json(data, file):
                         break
                 arg_ends.append(b)
             arg_list = [(event_type, x, y, z) for x, y, z in zip(arg_types, arg_begins, arg_ends)]
-            event_list.append([event_type, event_begin, event_end])
+            event_list.extend([event_type, event_begin, event_end])
         res.append({'event_trigger': event_list, 'arg_list': arg_list})
     jsonString = json.dumps(res)
     jsonFile = open(file, "w")

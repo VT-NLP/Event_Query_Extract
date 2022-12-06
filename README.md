@@ -28,11 +28,11 @@ and ./data/ere_en/processed_data respectively
 ## Trigger Detection
 To train the trigger detection model, run
 ```
-python run_trigger_detection.py --tr_dataset=${PATH_TO_TRAIN_DATASET} --dev_dataset=${PATH_TO_DEV_DATASET} 
+python scripts/run_trigger_detection.py --tr_dataset=${PATH_TO_TRAIN_DATASET} --dev_dataset=${PATH_TO_DEV_DATASET} 
 ```
 To evaluate the trigger detection performance, run
 ```
-python run_trigger_detection.py --EPOCH=0 --te_dataset=${PATH_TO_TEST_DATASET} 
+python scripts/run_trigger_detection.py --EPOCH=0 --te_dataset=${PATH_TO_TEST_DATASET} 
 ```
 
 
@@ -40,11 +40,11 @@ python run_trigger_detection.py --EPOCH=0 --te_dataset=${PATH_TO_TEST_DATASET}
 ## Argument Detection
 To train the argument detection model, run
 ```
-python run_argument_detection.py --train_file_pt=${PATH_TO_TRAIN_FILE} --dev_file_pt=${PATH_TO_DEV_FILE}
+python scripts/run_argument_detection.py --train_file_pt=${PATH_TO_TRAIN_FILE} --dev_file_pt=${PATH_TO_DEV_FILE}
 ```
 To evaluate the argument detection model, run
 ```
-python run_argument_detection.py --EPOCH=0 --test_file_pt=${PATH_TO_TEST_FILE}
+python scripts/eval.py
 ```
 
 
